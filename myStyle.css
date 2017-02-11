@@ -1,0 +1,155 @@
+/**************************************
+ TITLE: myStyle.css
+ CREATE DATE: 2/10/17
+ PURPOSE: Sets up design of the doc wall
+ Original File
+ ***************************************/
+
+*{
+    margin:0 0 6px;
+}
+header{
+	text-align:left;
+	color:white;
+	background-color:#009688;
+	padding:30px 150px;
+}
+body {
+	background-color: #CCEAE7;	/*	Use the Color Picker to find the hex code of your favorite color
+									http://www.w3schools.com/tags/ref_colorpicker.asp */
+}
+body p {
+	padding-left: 2em;
+}
+
+
+li, li a{						/* Define the formatting for the links to the labs */
+	list-style: none;
+	background-color: #66C0B7;
+	text-align: center;
+	color: white;
+	border-radius: 3px;
+	padding: 2px;
+}
+
+h2{
+	width: 100%;
+	color: #32AB9F;
+	line-height: 40px;
+}
+h3{
+	color: #32AB9F;
+	line-height: 30px;
+	text-align: center;
+}
+
+.ship{
+	width:300px;
+	height:300px;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.textDisplay{
+	text-align: center;
+	width: 532px;
+	height: 170px;
+	border-radius: 25px;
+	padding: 9px;
+	color: black;
+	margin: 20px auto auto auto;
+}
+
+.center{
+	text-align: center;
+	padding: 9px;
+	margin: 10px auto auto auto;
+}
+
+.pirateBox {
+	border: 2px #66C0B7 solid;
+    	width: 375px;
+    	height: 200px;
+    	border-radius: 25px;
+    	padding: 9px;
+    	font-size: 14px;
+    	color: black;
+	display: inline-block;
+  	float: left;	
+    	background-color: #CCEAE7;
+    	margin: auto;
+}
+
+.boxStorage {
+	width: 850px;
+	margin: auto;
+	background-color: #009688;
+}
+
+.ifBox {
+	width: 850px;
+	height: 100px;
+	margin: auto;
+	padding: 9px;
+	border: 4px #009688 solid;
+	border-radius: 25px;
+	background-color: #66C0B7;
+	text-align: center;
+}
+
+#myShip {
+	background-image: url(../img/battleShip.png);
+}
+
+#myShipText{
+	border: 3px black solid;
+    	background-color: #66C0B7;
+	font-size: 25px;
+}
+
+#assignments{			/* Define the formatting for the <div id="asssignments"> box */
+	width: 720px;
+	margin: 0 auto;
+	box-shadow: 0 2px 15px #EEE;
+	min-height: 300px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: white;
+}
+#assignments ul {
+	float:left;
+	width: 300px;
+}
+
+#infoTitle {
+	width: 800px;
+	margin: auto auto 20px auto;
+	box-shadow: 0 2px 15px #EEE;
+	min-height: 100px;
+	padding: auto;
+	border-radius: 25px;
+	background-color: #66C0B7;
+	border-style: solid;
+   	border-color: black;
+	font-weight: bold;
+	font-size: 85px;
+}
+
+#content  {  
+	width: 600px;
+	margin: auto;
+	box-shadow: 0 2px 15px #EEE;
+	min-height: 300px;
+	padding: 20px;
+	border-radius: 25px;
+	background-color: #009688;
+	border-style: solid;
+   	border-color: black;
+}
+
+hr{						/* Define the formatting for the <hr /> line between "Course Work" and lab links */
+	margin: 10px 0;
+	width: 100%;
+	size: 600;
+	float: left;
+}
