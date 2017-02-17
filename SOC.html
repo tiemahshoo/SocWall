@@ -12,35 +12,86 @@
 	<meta charset="utf-8">
 	<meta http-equiv="refresh" content="60" >
 	<title>SOC WALL</title>
-	<link rel="stylesheet" type="text/css" href="myStyle.css">	
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="canvasjs.min.js"></script>
 	<script type="text/javascript" src="Factory.js"></script>
 </head>
 
 <body>
     	<fieldset id="Screen">
-		<fieldset id="OpsGenie">
-        		<div id="TasksPerHour">
-				Tasks per hour here
-            		</div>
-            
-            		<div id="AlarmAlert">
-				ALARM here
-            		</div>
-            
-            		<div id="CountDetector">
-				Count Detector here
-            		</div>
-            	
-            		<div id="SortingList">
-				Sorting List here
-            		</div>
-		</fieldset>
-		
-		<fieldset id="Cylance">test
+		<fieldset id="Other" class="Box">
+			<div id ="Other1"></div>
+			<div id ="Other2"></div>
+			<div id ="Other3"></div>
+			<div id ="Other4"></div>
 		</fieldset>
 
-		<fieldset id="Other">test
+		<fieldset id="OpsGenie" class="Box">
+			<div id="TasksPerHour"><h1>Tasks Per Hour</h1>
+        			<table id="ControllerTable">
+					<tr>
+						<th>Controller</th>
+						<th>Count</th>
+					</tr>
+					<tr>
+						<td id="NorTag">NOR</td>
+						<td id="NorCount"></td>
+					</tr>
+					<tr>
+						<td id="GosTag">GOS</td>
+						<td id="GosCount"></td>
+					</tr>
+					<tr>
+						<td id="DotTag">DOT</td>
+						<td id="DotCount"></td>
+					</tr>
+					<tr>
+						<td id="Tmf1Tag">TMF1</td>
+						<td id="Tmf1Count"></td>
+					</tr>
+					<tr>
+						<td id="Tmf2Tag">TMF2</td>
+						<td id="Tmf2Count"></td>
+					</tr>
+					<tr>
+						<td id="ThgTag">THG</td>
+						<td id="ThgCount"></td>
+					</tr>
+					<tr>
+						<td id="RilTag">RIL</td>
+						<td id="RilCount"></td>
+					</tr>
+					<tr>
+						<td id="SepTag">SEP</td>
+						<td id="SepCount"></td>
+					</tr>
+					<tr>
+						<td id="SchTag">SCH</td>
+						<td id="SchCount"></td>
+					</tr>
+				</table>
+			</div>
+
+            		<div id="CountDetector">
+            		</div>
+
+				<div id="AlarmAlert">
+				ALARM here
+            		</div>
+
+
+            		<div id="SortingList">
+									<table  id="SortingTable">
+									</table>
+            		</div>
+		</fieldset>
+
+		<fieldset id="Cylance" class="Box">
+			<div id ="Cylance1"></div>
+			<div id ="Cylance2"></div>
+			<div id ="Cylance3"></div>
+			<div id ="Cylance4"></div>
 		</fieldset>
 	</fieldset>
 </body>

@@ -6,28 +6,25 @@
  ***************************************/
 
 *{
-    margin:0 0 6px;
+    margin:0px 0px 6px;
 }
-header{
-	text-align:left;
-	color:white;
-	background-color:#009688;
-	padding:30px 150px;
-}
+
 body {
-	background-color: #CCEAE7;	/*	Use the Color Picker to find the hex code of your favorite color
-									http://www.w3schools.com/tags/ref_colorpicker.asp */
+	background-color: #58585B;
+	font-family: "Roboto";
+	color: white;
+	overflow: hidden;
 }
 body p {
 	padding-left: 2em;
 }
 
 
-li, li a{						/* Define the formatting for the links to the labs */
+li, li a{
 	list-style: none;
-	background-color: #66C0B7;
+	background-color: WHITE;
 	text-align: center;
-	color: white;
+	color: BLACK;
 	border-radius: 3px;
 	padding: 2px;
 }
@@ -43,19 +40,211 @@ h3{
 	text-align: center;
 }
 
-#content  {  
-	width: 600px;
-	margin: auto;
-	box-shadow: 0 2px 15px #EEE;
-	min-height: 300px;
-	padding: 20px;
-	border-radius: 25px;
-	background-color: #009688;
-	border-style: solid;
-   	border-color: black;
+.Box{
+	background-color: #CF2026;
+	border: none;
 }
 
-hr{						/* Define the formatting for the <hr /> line between "Course Work" and lab links */
+.canvasjs-chart-credit {
+   display: none;
+}
+
+#Screen{
+	background-color: #B21F28;
+	border: none;
+	height: 100vh;
+	padding: 0;
+}
+
+#OpsGenie{
+	float: left;
+	padding: 0;
+	height: 66%;
+	width: 50%;
+}
+
+#Cylance{
+	float: right;
+	padding: 0;
+	height: 66%;
+	width: 50%;
+}
+
+#Other{
+	float: left;
+	padding: 0;
+	height: 33%;
+	width: 100%;
+}
+
+#TasksPerHour{
+	float: left;
+	padding: 0;
+	background-image: url('OpsGenie.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 50%;
+	width: 50%;
+}
+
+tr{
+	background-color:#F38B3C;
+}
+tr:nth-child(even) {background-color: #F6A04D}
+
+th{
+	background-color:#F48342;
+}
+
+div h1 {
+	margin-top: 25px;
+}
+
+#ControllerTable{
+	float: left;
+	padding: 0;
+	margin-left:25px;
+	text-align: center;
+	height: 80%;
+	width: 33%;
+}
+
+#CountDetector{
+	float: right;
+	padding: 0;
+	background-image: url('OpsGenie.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 50%;
+	width: 50%;
+}
+
+#AlarmAlert{
+	float: left;
+	padding: 0;
+	background-image: url('OpsGenie.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 50%;
+	width: 50%;
+}
+
+#SortingList{
+	float: right;
+	padding: 0;
+	background-image: url('OpsGenie.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 50%;
+	width: 50%;
+  overflow-y: scroll;
+}
+
+#Cylance1{
+	float: left;
+	padding: 0;
+	background-image: url('CylanceBack.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 50%;
+	width: 50%;
+}
+
+#Cylance2{
+	float: right;
+	padding: 0;
+	background-image: url('CylanceBack.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 50%;
+	width: 50%;
+}
+
+#Cylance3{
+	float: left;
+	padding: 0;
+	background-image: url('CylanceBack.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 50%;
+	width: 50%;
+}
+
+#Cylance4{
+	float: right;
+	padding: 0;
+	background-image: url('CylanceBack.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 50%;
+	width: 50%;
+}
+
+#Other1{
+	float: left;
+	padding: 0;
+	background-image: url('Pondurance.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 100%;
+	width: 25%;
+}
+
+#Other2{
+	float: left;
+	padding: 0;
+	background-image: url('Pondurance.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 100%;
+	width: 25%;
+}
+
+#Other3{
+	float: left;
+	padding: 0;
+	background-image: url('Pondurance.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 100%;
+	width: 25%;
+}
+
+#Other4{
+	float: left;
+	padding: 0;
+	background-image: url('Pondurance.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 100%;
+	width: 25%;
+}
+
+hr{
 	margin: 10px 0;
 	width: 100%;
 	size: 600;
